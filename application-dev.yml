@@ -1,1 +1,19 @@
+spring:
+  application:
+    name: CONIFG-DEV
 
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Rahul-dev192/microsevice-project
+          clone-on-start: true
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8084/eureka
