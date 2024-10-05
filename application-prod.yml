@@ -1,6 +1,6 @@
 spring:
   application:
-    name: CONIFG-SERVER
+    name: CONIFG-PROD
 
   cloud:
     config:
